@@ -1,12 +1,38 @@
-# Starter Next/Hardhat Project
+# simpleStorage-Dapp Project
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+Welcome to the simpleStorage-Dapp project! This repository contains a decentralized application (DApp) that interacts with the Ethereum blockchain using the `simpleStorage.sol` smart contract.
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Setup Instructions
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+To get started with the project on your local machine, follow these steps:
+
+### 1. Install Dependencies
+
+Inside the project directory, run:
+```bash
+npm install
+
+### 2. Start Local Ethereum Node
+
+Open a new terminal and run:
+```bash
+npx hardhat node
+
+### 3. Deploy Smart Contract
+
+Open another terminal and run:
+```bash
+npx hardhat run --network localhost scripts/deploy.js
+
+### 4. Launch the Frontend
+
+Back in the first terminal, start the frontend:
+```bash
+npm run dev
+
+### 5. Access Your Local DApp
+
+Open your web browser and go to:
+```bash
+http://localhost:3000/
+
