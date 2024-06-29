@@ -37,7 +37,7 @@ Open your web browser and go to:
 http://localhost:3000/
 ```
 
-### Additional Information
+## Additional Information
 1) Dependencies: This project uses Node.js, Hardhat for Ethereum development, and npm for package management.
 2) Smart Contract: The `simpleStorage.sol` contract provides basic storage functionality.
 3) Frontend: The frontend is launched using npm scripts and runs on `localhost`.
