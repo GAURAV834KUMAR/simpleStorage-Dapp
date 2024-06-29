@@ -35,4 +35,3 @@ npm run dev
 Open your web browser and go to:
 ```bash
 http://localhost:3000/
-
